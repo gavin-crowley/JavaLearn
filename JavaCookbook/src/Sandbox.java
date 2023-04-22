@@ -27,5 +27,16 @@ public class Sandbox {
 //        System.out.println(str.length());
 //        System.out.println(str.charAt(3));
 
+        String str = "abc";
+        System.out.println(str.charAt(0) + " " + str.charAt(str.length() -1));
+        String str2 = "code";
+        // Creating array of string length
+        char[] arr = new char[str2.length()];
+
+        // Copy character by character into array
+        for (int i = 0; i < str2.length(); i++) {
+            arr[i] = str2.charAt(i);
+        }
+        System.out.println(Arrays.toString(arr));
     }
 }

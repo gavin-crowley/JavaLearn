@@ -13,12 +13,14 @@ public class Sandbox {
 //        double rad = in.nextDouble();
 //        System.out.println("Perimeter is = " + (2 * Math.PI * rad));
 //        System.out.println("Area is = " + (Math.PI * Math.pow(rad, 2)));
-        System.out.println("  +\"\"\"\"\"+");
-        System.out.println("[| o   o |]");
-        System.out.println(" |   ^   |");
-        System.out.println(" |  '_'  |");
-        System.out.println(" +-------+");
-
-
+//        System.out.println("  +\"\"\"\"\"+");
+//        System.out.println("[| o   o |]");
+//        System.out.println(" |   ^   |");
+//        System.out.println(" |  '_'  |");
+//        System.out.println(" +-------+");
+            Integer i = 128;
+            Integer i2 = 128;
+        System.out.println(i == i2);
+        System.out.println(i.equals(i2));
     }
 }
